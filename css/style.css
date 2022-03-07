@@ -1,0 +1,404 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    font-family: 'Lato' sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato' sans-serif;
+}
+a , a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* header css start here */
+    .header{
+        width: 100%;
+
+    }
+    .header .navbar-light .navbar-nav .nav-link.active{
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0px 0px 0px 15px;
+        font-weight: 600;
+        color: #333;
+    }
+    .header .navbar-light .navbar-nav .nav-link{
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0px 0px 0px 15px;
+        font-weight: 600;
+        color: #8e8e8e;
+    }
+    .header .navbar-light .navbar-nav .nav-link:hover , .header .navbar-light .navbar-nav .nav-link:focus{
+        color: #333;
+    }
+    .banner{
+        width: 100%;
+        padding: 180px 0px;
+        background: url("../images/image2.png") center top no-repeat;
+        background-size: cover;
+    }
+    .banner h1 {
+        width: 100%;
+        font-size: 54px;
+        line-height: 74px;
+        font-weight: 600;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .banner p {
+        width: 51%;
+        font-size: 17px;
+        line-height: 27px;
+        color: #fff;
+        padding: 30px 0px;
+    }
+    .banner a{ 
+        padding: 15px 35px;
+    }
+    .banner .btn-light {
+        padding: 15px 45px;
+        font-size:22px ;
+        line-height: 32px;
+        transition: 1s;
+        border-radius: 0px;
+    }
+    .banner .btn-light:hover {
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+
+
+/* header css end here */
+
+/* welcome css start here */
+    .welcome{
+        width: 100%;
+        padding: 80px 0px;
+    }
+    .welcome .inner-card {
+        width: 100%;
+        padding: 55px 20px;
+        border: 1px solid #a5a5a5;
+        text-align: center;
+        margin-top: 38px;
+        position: relative;
+    }
+    .welcome .inner-card:hover{
+        border:1px solid #000 ;
+    }
+    .welcome .card-image img{
+        position: absolute;
+        margin: -73px -19px 0px -16px;
+        background-color: #fff;
+    }
+    .welcome h4{
+        font-size: 24px;
+        line-height: 34px;
+        margin: 0px;
+    }
+
+    .welcome p {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 16px 0px;
+        color: #a5a5a5;
+    }
+    .welcome .inner-card:hover p{
+       color: #000;
+    }
+    .welcome a {
+        position: absolute;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #a5a5a5 !important;
+        text-decoration: none;
+        margin: 9px 12px 4px -37px;
+        padding: 1px 0px;
+    }
+    .welcome .inner-card:hover  a{
+        color:blue !important;
+     }
+    .welcome a i {
+        font-size: 18px;
+        line-height: 28px;
+        margin-left: 10px;
+    }
+/* welcome css end here */
+
+/* about css start here */
+    .about {
+        width: 100%;
+        padding: 60px 0px 120px 0px;
+    }
+    .about p{
+        font-size: 18px;
+        line-height: 28px;
+        color: #a5a5a5;
+        font-weight: 400;
+        width: 120%;
+        padding: 20px 0px;
+    }
+    .about .btn-light{
+        padding: 15px 30px;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        color: ;
+        background-color: #F1F1F1;
+        transition: 1s;
+    }
+    .about .btn-light:hover{
+        background: transparent;
+        border: 1px solid #000;
+
+    }
+    .about .btn-light i{
+        margin-left: 5px;
+        transition: 1s;
+    }
+    .about .btn-light:hover i{
+        margin-left: 15px;
+    }
+
+/* about css end here */
+
+    .testimonial{
+        width: 100%;
+        padding: 80px 0px;
+        background-color: #F8F8F8;
+    }
+    .testimonial title {
+        width: 100%;
+    }
+    .testimonial ul {
+        padding: 70px 0px 30px 0px;
+    }
+    .testimonial ul li {
+        display: inline;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+        margin: 0px 0px 0px 40px;
+        color: #a5a5a5;
+    }
+    .testimonial ul .active{
+        color: #000;
+    }
+    .testimonial ul li:hover, .testimonial ul li:focus{
+        color: #000 !important;
+    }
+
+/* portfolio css start here */
+    
+    .box-item{
+        margin-bottom: 30px;
+    } 
+
+
+/* portfolio css end here */
+
+
+/* service section start */
+
+    .service .title{
+        text-align: center;
+        padding: 40px 0px;
+    }
+    .service .title h4{
+        color: #00b400;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 500;
+        font-family: 'poppins';
+        letter-spacing: 2px;
+
+    }
+    .service .title h1 {
+        color: #dc3545;
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 600;
+        letter-spacing: 0px;
+    }
+    .service .card {
+        width: 100%;
+        text-align: center;
+        background-color: #ededed4f;
+        margin-bottom: 40px;
+        box-shadow: 0px 2px 17px -6px;
+    }
+    .service .card:hover{
+        background-color: #fff;
+        box-shadow: none;
+    }
+    .service .card img {
+        width: 138px;
+        margin: 0px auto;
+        margin-top: 28px;
+    }
+    .service .card h4{
+
+    }
+    .service .card p{
+        
+    }
+    .service .card .btn-primary {
+        background-color: #dc3545;
+        padding: 8px 35px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 1px;
+        transition: 1s;
+        border: 2px solid #dc3545;
+    }
+    .service .card .btn-primary:hover, .service .card .btn-primary:focus {
+        background-color: transparent;
+        color: #dc3545;
+        border: 2px solid ;
+    }
+
+/* service section end */
+
+/* story css start here */
+
+    .story{
+        width: 100%;
+        padding: 60px 0px;
+    }
+    .story .title{
+        padding: 60px 0px;
+    }
+    .story .title h4{
+        color: #00b400;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 500;
+        font-family: 'poppins';
+        letter-spacing: 2px;
+
+    }
+    .story .title h1 {
+        color: #dc3545;
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 600;
+        letter-spacing: 0px;
+    }
+    .story .tuhin-img img{
+        width: 70%;
+    }
+    .story .short-about .tuhin-img-2 {
+        margin-left: 160px;
+    }
+    .story .tuhin-content{
+
+    }
+    .story .tuhin-content h4{
+        
+    }
+    .story .tuhin-content p {
+        font-size: 16px;
+        line-height: 30px;
+        padding: 30px 0px;
+    }
+    .story .tuhin-content .btn {
+        padding: 14px 35px;
+        margin-top: 15px;
+        font-size: 18px;
+        line-height: 28px;
+        background-color: #dc3545;
+        color: #fff;
+        border: 2px solid#dc3545;
+        transition: 1s;
+        font-weight: 600;
+    }
+    .story .tuhin-content .btn:hover , .story .tuhin-content .btn:focus{
+        background-color: transparent;
+        color: #dc3545;
+        letter-spacing: 2px;
+    }
+    .story .tuhin-content a i{
+        margin-left: 5px;
+        transition: 1s;
+    }
+    .story .tuhin-content a:hover i{
+        margin-left: 15px;
+    }
+    .story .short-about {
+        padding: 104px 0px 20px 0px;
+    }
+
+/* story css end here */
+
+/* portfolio css start here */
+.portfolio .mix-item{
+    position: relative;
+}
+.portfolio .mix-item:before {
+    content: "";
+    position: absolute;
+    top: 3%;
+    left: 7%;
+    height: 93%;
+    width: 92%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+}
+.portfolio .mix-item:hover:before{
+    opacity: 1;
+}
+.portfolio .mix-item img {
+    height: 271px;
+    width: 305px;
+    margin: 10px;
+}
+
+.portfolio .mix-item .fa-solid {
+    /* text-align: center; */
+    color: #fff;
+    position: absolute;
+    top: 42%;
+    left: -11%;
+    font-size: 57px;
+    line-height: 67px;
+    text-align: center;
+    width: 0%;
+    opacity: 0;
+    transition: 1s;
+}
+.portfolio .mix-item:hover .fa-solid{
+    opacity: 1;
+    left: 46%;
+}
+/* portfolio css end here */
+/* global css title start here */
+    .title{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .title img{
+
+    }
+    .title h2 {
+        padding: 0px 0px 25px 0px;
+    }
+    .title p {
+        width: 80%;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+/* global css title start here */
